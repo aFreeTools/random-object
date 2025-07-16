@@ -17,7 +17,7 @@ Clone the repo:
 git clone https://github.com/aFreeTools/random-object.git
 cd random-object-generator
 
-## 🌐 Live Demo
+## 🌐 Live Demo - Random Object Generator
 
 Explore the Random Object Generator in action:  
 🔗 [Live Tool](https://afreetools.com/random-object-generator)
