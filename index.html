@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random object Generator</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row custom__card p-4 p-md-5 bg-light mb-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+            
+            <div class="form-group">
+                <label for="objectCount">How many Objects? </label>
+                <input type="number" class="form-control" id="objectCount" min="1" max="1500" value="3" required>
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-lg-6 align-content-end mb-3 text-center align-self-center">
+            <button id="generateBtn">Generate</button>
+            <button id="resetBtn" class="btn btn-outline-secondary btn-lg my-2">Reset</button>
+        </div>
+
+        <div id="error" class="error"></div>
+
+        <div id="output" class="output" style="display: flex;flex-wrap: wrap;gap: 10px;"></div>
+        <div id="pagination" class="pagination"></div>
+    </div>
+</div>
+  <script src="random-object.js"></script>
+</body>
+</html>
